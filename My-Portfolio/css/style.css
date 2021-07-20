@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.inner-box{
+    display: flex;
+    border: 3px solid turquoise;
+    padding: 9px;
+    height: 550px;
+}
+
+body{
+    background-color: beige;
+}
+
+
+.info{
+    width: 80%;
+    margin-right: 3px;
+    border: rgb(214, 37, 214) 3px solid;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.profile-pic{
+    border: teal 3px solid;
+    padding: 3px;
+    /* align-items: stretch; */
+}
+.profile-pic img{
+    padding-top: 80px;
+    height: 75%;
+    width: 95%;
+    border-radius: 50%;
+}
+
+.description{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 8px;
+    border: 3px solid blue;
+}
+
+.short-intro{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    /* height: 624px; */
+}
+
+.container{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 8px;
+    border: 3px goldenrod solid;
+}
+
+h1{
+    
+    color: rgb(236, 71, 5);
+}
+
+h2{
+    /* background-color: rgb(250, 191, 167); */
+    color: rgb(236, 71, 5);
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.about{
+    border: 3px violet dashed;
+    height: 350px;
+    width: 740px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+
+
+#skills{
+    border: 3px green solid;
+    width: 740px;
+}
+
+.skill-container{
+    border: 2px blue solid;
+    height: 300px;
+}
+
+.skill{
+    display: flex;
+    margin-top: 15px;
+    border: 3px green solid;
+    padding: 5px;
+    height: 20px;
+    flex-direction: row;
+}
+
+#progress-bar-python{
+    /* align-content: flex-end; */
+    /* margin-right: 0px; */
+    margin: auto;
+    margin-right: 3px;
+    height: 17px;
+    width: 60%;
+    background-color: red;
+    color: red;
+}
+
+#progress-bar-python:hover{
+    align-content: flex-end;
+    /* margin-right: 0px; */
+    text-align: end;
+    margin: auto;
+    margin-right: px;
+    height: 25px;
+    width: 45%;
+    background-color: white;
+    color: blue;
+}
+
+
+#progress-bar-c{
+    /* align-content: flex-end; */
+    /* margin-right: 0px; */
+    margin: auto;
+    margin-right: 3px;
+    height: 17px;
+    width: 30%;
+    background-color: red;
+    color: red;
+}
+
+#progress-bar-c:hover{
+    align-content: flex-end;
+    /* margin-right: 0px; */
+    text-align: end;
+    margin: auto;
+    margin-right: px;
+    height: 25px;
+    width: 45%;
+    background-color: white;
+    color: blue;
+}
+
+#progress-bar-mathematics{
+    /* align-content: flex-end; */
+    /* margin-right: 0px; */
+    margin: auto;
+    margin-right: 3px;
+    height: 17px;
+    width: 60%;
+    background-color: red;
+    color: red;
+}
+
+#progress-bar-mathematics:hover{
+    align-content: flex-end;
+    /* margin-right: 0px; */
+    text-align: center;
+    margin: auto;
+    margin-right: px;
+    height: 25px;
+    width: 45%;
+    background-color: white;
+    color: blue;
+}
+
+#progress-bar-html{
+    /* align-content: flex-end; */
+    /* margin-right: 0px; */
+    margin: auto;
+    margin-right: 3px;
+    height: 17px;
+    width: 45%;
+    background-color: red;
+    color: red;
+}
+
+#progress-bar-html:hover{
+    /* align-content: flex-end; */
+    /* margin-right: 0px; */
+    text-align: end;
+    margin: auto;
+    margin-right: px;
+    height: 25px;
+    width: 45%;
+    background-color: white;
+    color: blue;
+}
+
+#progress-bar-css{
+    /* align-content: flex-end; */
+    /* margin-right: 0px; */
+    margin: auto;
+    margin-right: 3px;
+    height: 17px;
+    width: 15%;
+    background-color: red;
+    color: red;
+}
+
+#progress-bar-css:hover{
+    /* align-content: flex-end; */
+    /* margin-right: 0px; */
+    text-align: end;
+    margin: auto;
+    margin-right: px;
+    height: 25px;
+    width: 45%;
+    background-color: white;
+    color: blue;
+}
+
+footer{
+    margin-top: 45px;
+}
+
+
+.contact-me{
+    list-style-type: none;
+    margin: 0 300px 0 0;
+}
+
+#note{
+    border: 3px solid green;
+    padding: 40px;
+    background-color: rgb(250, 191, 167);
+    color: rgb(236, 71, 5);
+    font-size: x-large;
+    margin-top: 30px;
+    text-align: center;
+}
